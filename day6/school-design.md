@@ -29,3 +29,8 @@ For example:
 ```sql
 CREATE INDEX idx_enrolments_student_id
 ON enrolments(student_id);
+
+```
+## SQL vs NoSQL
+
+I would choose SQL for this school registry system. The data has a clear and structured relationship between students, courses, and enrolments, so a relational database is a good fit. SQL provides strong schema rules, primary keys, foreign keys, unique constraints, and ACID transactions, which help keep school records accurate and consistent. A NoSQL database would provide more flexibility for changing document structures and can be useful for some large-scale applications, but that flexibility is not as important for this system. Therefore, SQL is better suited because data integrity and reliable relationships between records are more important for a school registry.
